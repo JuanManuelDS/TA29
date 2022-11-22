@@ -1,0 +1,48 @@
+main {
+    padding: 5px;
+    width: fit-content;
+    border: solid 3px rgb(0, 156, 156);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headers td,
+th {
+    background-color: rgb(0, 92, 23);
+    color: white;
+    text-align: center;
+}
+
+td.precio {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px gray;
+}
+
+
+td,
+th {
+    width: 130px;
+    border-collapse: collapse;
+    margin: 0px;
+    border: solid 3px rgb(0, 156, 156);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(155, 202, 161);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(118, 202, 125);
+}
+
+a {
+    margin-top: 80px;
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    left: 45%;
+}
